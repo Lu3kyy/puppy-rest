@@ -6,6 +6,72 @@ body{
 }
 
 
+
 .footer-color{
     color: #5F002B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CUSTOM FONT*/
+@font-face {
+  font-family: 'Fugaz';
+  src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*NAVBAR CSS*/
+.custom-navbar {
+  width: 1800px;
+  height: 166px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px;
+}
+/* image size */
+.navbar-logo img {
+  width: 250px;
+  height: 166px;
+  object-fit: contain;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 60px; /* spacing between buttons */
+  margin: 0;
+  padding: 0;
+}
+/* to change the fonts of all my buttons */
+.navbar-links a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Fugaz', sans-serif;
+  color: #550a23; 
+  background: transparent;
+  border: none;
+  font-weight: 700;
 }
