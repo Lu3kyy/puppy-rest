@@ -88,3 +88,30 @@ body{
   border: none;
   font-weight: 700;
 }
+
+.footer-color{
+    color: #5F002B;
+}
+
+.catering-box{
+    background-color: white;
+}
+
+.catering-title{
+    color:#5F002B;
+    text-align: center;
+    font-size: 50px;
+    font-family: Fugaz One, Regular;
+}
+
+.cateringHero{
+    display: center;
+}
+.catering-col-text{
+    background-color: white;
+    color:#5F002B;
+}
+
+.catering-3-images{
+    width:100;
+}
