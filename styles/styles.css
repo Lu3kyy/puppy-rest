@@ -5,7 +5,20 @@ body{
     background-repeat: repeat;
 }
 
-
+@font-face {
+    font-family: Montauk Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+.Montauk-regular{
+    font-family: Montauk Regular;
+}
+@font-face {
+    font-family: Fugaz One;
+    src: url(../fonts/FugazOne-Regular.ttf);
+}
+.Fugaz-One{
+    font-family: Fugaz One;
+}
 
 .footer-color{
     color: #5F002B;
