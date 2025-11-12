@@ -4,7 +4,12 @@ body{
     background-size: 600px 400px;
     background-repeat: repeat;
 }
-
+@font-face {
+  font-family: 'Fugaz';
+  src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
     font-family: Montauk Regular;
     src: url(../fonts/Montauk-Regular.otf);
@@ -19,9 +24,12 @@ body{
 .Fugaz-One{
     font-family: Fugaz One;
 }
-
-.footer-color{
-    color: #5F002B;
+@font-face {
+    font-family: Montauk Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+.Montauk-Light{
+  font-family: Montauk Light;
 }
 @media (max-width:500px)
 {
@@ -50,8 +58,7 @@ body{
 }
 
 
-
-/* MENU SECTION */
+                                                  /* MENU SECTION */
 .menu-section {
   display: flex;
   flex-wrap: wrap; /*wraps the columns and is sized to its 2 big menu panels on most all desktops*/
@@ -61,7 +68,6 @@ body{
   padding: 40px;
   background: transparent;
 }
-
 /* MENU CARD */
 .menu-card {
   width: 640px;                 /* uniform width */
@@ -74,47 +80,40 @@ body{
   justify-content: flex-start;
   box-sizing: border-box;
 }
-
 /* MENU IMAGE */
 .menu-img {
   width: 100%;
-  height: 210px;                /* uniform image height */
+  height: 200px;                /* uniform image height */
   object-fit: cover;
   display: block;
 }
-
 /* MENU CONTENT */
 .menu-content {
   flex: 1;
-  padding: 30px;
+  padding: 15px; /*DISTANCE BETWEEN OUTER BOX AND INNER TEXT*/
   color: #5e0b27;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-
 /* SECTION HEADINGS (Sandwiches, Seafood, etc.) */
 .menu-content h2 {
   font-family: 'Fugaz';
   font-size: 26px;
-  font-weight: 700;
   margin-bottom: 5px;
   color: #5e0b27;
 }
-
 /* SUBTITLE (e.g., "All sandwiches come with...") */
 .menu-subtitle {
-  font-family: 'Montauk Regular';
-  font-style: italic;
+  font-family: Montauk Light;
+    font-style: italic;
   font-size: 15px;
   margin-bottom: 25px;
   color: #5e0b27;
 }
-
 /* MENU ITEMS */
-.menu-item {
-  
+.menu-item {  
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid #5e0b27;
@@ -122,42 +121,66 @@ body{
   margin-bottom: 5px;
   position: relative;
 }
-
 /* ITEM NAME */
 .item-name {
- font-family: 'Montauk Regular';
-  font-weight: 300;
-  font-size: 25px;
+  font-family: Montauk Light;
+    font-size: 25px;
   color: #5e0b27;
 }
-
 /* ITEM PRICE */
 .item-price {
-    font-family: 'Montauk Regular';
-  position: absolute;
+  font-family: Montauk Light;
+    position: absolute;
   right: 0;
   top: 10px;
-  font-weight: 700;
   font-size: 18px;
   color: #5e0b27;
 }
-
 /* ITEM DESCRIPTION */
 .menu-item p {
-    font-family: 'Montauk Regular';
-  font-size: 14px;
+  font-family: Montauk Light;
+    font-size: 14px;
   margin: 5px 0 0 0;
   color: #5e0b27;
 }
-
-/*CUSTOM FONT*/
-@font-face {
-  font-family: 'Fugaz';
-  src: url('/fonts/FugazOne-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+                          /*TEXT RESIZING TO FIT MOBILE SCREENS MENU TAB ONLY!!*/
+@media (max-width: 1024px) {
+  .menu-content h2 {
+    font-size: 24px;
+  }
+  .menu-subtitle {
+    font-size: 16px;
+  }
+  .item-name,
+  .item-price {
+    font-size: 18px;
+  }
+  .menu-item p {
+    font-size: 15px;
+  }
 }
-/*NAVBAR CSS*/
+/*MOBILE SECTION */
+@media (max-width: 600px) {
+  .menu-content h2 {
+    font-size: 20px;
+  }
+  .menu-subtitle {
+    font-size: 13px;
+  }
+  .item-name,
+  .item-price {
+    font-size: 10px;
+  }
+  .menu-item p {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+                                                  /*NAVBAR CSS*/
 .custom-navbar {
   width: 1800px;
   height: 166px;
@@ -198,6 +221,8 @@ body{
 }
 
 
+
+                                                /*footer code/catering*/
 .footer-color{
     color: #5F002B;
 }
