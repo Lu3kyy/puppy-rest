@@ -42,7 +42,7 @@ body{
 /* MENU CARD */
 .menu-card {
   width: 640px;                 /* uniform width */
-  height: 700px;                /* fixed  height */
+  height: 780px;                /* fixed  height */
   background-color: #fffaf8;   
   border-radius: 4px;
   overflow: hidden;
