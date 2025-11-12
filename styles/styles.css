@@ -41,12 +41,11 @@ body{
 
 /* MENU CARD */
 .menu-card {
-  width: 700px;                 /* uniform width */
-  height: 800px;                /* fixed uniform height */
+  width: 650px;                 /* fixed width */
+  height: 800px;                /* fixed height */
   background-color: #fffaf8;   
   border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
