@@ -23,7 +23,14 @@ body{
 .footer-color{
     color: #5F002B;
 }
+@media (max-width:500px)
+{
+  .footer-mobile{
+    display: flex;
+    justify-content: center;
+  }
 
+}
 @media (max-width: 786px)
 {
   .about-images{
