@@ -42,12 +42,12 @@ body{
 @media (max-width: 786px)
 {
   .about-images{
-      width: 275px;
+      width: 300px;
       height:auto;
 
   }
   .card-size{
-    width:275px
+    width:300px
   }
 }
 @media (min-width: 787px)
