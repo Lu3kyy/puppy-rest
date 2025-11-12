@@ -24,7 +24,13 @@ body{
 .Fugaz-One{
     font-family: Fugaz One;
 }
-
+@font-face {
+    font-family: Montauk Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+.Montauk-Light{
+  font-family: Montauk Light;
+}
 
 
 
@@ -77,8 +83,8 @@ body{
 }
 /* SUBTITLE (e.g., "All sandwiches come with...") */
 .menu-subtitle {
-  font-family: 'Montauk Regular';
-  font-style: italic;
+  font-family: Montauk Light;
+    font-style: italic;
   font-size: 15px;
   margin-bottom: 25px;
   color: #5e0b27;
@@ -94,14 +100,14 @@ body{
 }
 /* ITEM NAME */
 .item-name {
- font-family: 'Montauk Regular';
-  font-size: 25px;
+  font-family: Montauk Light;
+    font-size: 25px;
   color: #5e0b27;
 }
 /* ITEM PRICE */
 .item-price {
-    font-family: 'Montauk Regular';
-  position: absolute;
+  font-family: Montauk Light;
+    position: absolute;
   right: 0;
   top: 10px;
   font-size: 18px;
@@ -109,8 +115,8 @@ body{
 }
 /* ITEM DESCRIPTION */
 .menu-item p {
-    font-family: 'Montauk Regular';
-  font-size: 14px;
+  font-family: Montauk Light;
+    font-size: 14px;
   margin: 5px 0 0 0;
   color: #5e0b27;
 }
