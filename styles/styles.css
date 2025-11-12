@@ -24,7 +24,23 @@ body{
     color: #5F002B;
 }
 
+@media (max-width: 786px)
+{
+  .about-images{
+      width: 275px;
+      height:auto;
 
+  }
+  .card-size{
+    width:275px
+  }
+}
+@media (min-width: 787px)
+{
+  .card-size{
+    width: 536px;
+  }
+}
 
 
 
