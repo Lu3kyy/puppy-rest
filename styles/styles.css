@@ -31,8 +31,31 @@ body{
 .Montauk-Light{
   font-family: Montauk Light;
 }
+@media (max-width:500px)
+{
+  .footer-mobile{
+    display: flex;
+    justify-content: center;
+  }
 
+}
+@media (max-width: 786px)
+{
+  .about-images{
+      width: 275px;
+      height:auto;
 
+  }
+  .card-size{
+    width:275px
+  }
+}
+@media (min-width: 787px)
+{
+  .card-size{
+    width: 536px;
+  }
+}
 
 
                                                   /* MENU SECTION */
