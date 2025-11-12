@@ -54,7 +54,7 @@ body{
 /* MENU IMAGE */
 .menu-img {
   width: 100%;
-  height: 210px;                /* uniform image height */
+  height: 200px;                /* uniform image height */
   object-fit: cover;
   display: block;
 }
@@ -72,7 +72,6 @@ body{
 .menu-content h2 {
   font-family: 'Fugaz';
   font-size: 26px;
-  font-weight: 700;
   margin-bottom: 5px;
   color: #5e0b27;
 }
@@ -96,7 +95,6 @@ body{
 /* ITEM NAME */
 .item-name {
  font-family: 'Montauk Regular';
-  font-weight: 300;
   font-size: 25px;
   color: #5e0b27;
 }
@@ -106,7 +104,6 @@ body{
   position: absolute;
   right: 0;
   top: 10px;
-  font-weight: 700;
   font-size: 18px;
   color: #5e0b27;
 }
@@ -196,7 +193,7 @@ body{
 
 
 
-/*footer code*/
+                                                /*footer code/catering*/
 .footer-color{
     color: #5F002B;
 }
