@@ -58,6 +58,16 @@ body{
   }
 }
 /* End of about.html class responsiveness */
+.muzzles-box
+{
+  position: relative;
+}
+.muzzles-img
+{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
 
                                                   /* MENU SECTION */
 .menu-section {
