@@ -1,20 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/styles.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container p-0 ">
                 <a href="../index.html" class="navbar-logo">
-                    <img src="../assets/MuzzlesLogo.png" alt="Muzzles Logo" /> </a>
+                    <img style="height: 70px;" src="../assets/MuzzlesLogo.png" alt="Muzzles Logo" /> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -23,95 +26,134 @@
                 <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
 
                     <ul class="navbar-links navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item "><a class="nav-link" href="../pages/About.html"><span class="Fugaz-One">About</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/Menu.html"><span class="Fugaz-One">Menu</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/Catering.html"><span class="Fugaz-One">Catering</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/Photos.html"><span class="Fugaz-One">Photo</span></a></li>
+                        <li class="nav-item ps-2"><a class="nav-link" href="../pages/About.html"><span class="Fugaz-One" style="font-weight: lighter;">About</span></a></li>
+                        <li class="nav-item ps-2"><a class="nav-link" href="../pages/Menu.html"><span class="Fugaz-One" style="font-weight: lighter;">Menu</span></a></li>
+                        <li class="nav-item ps-2"><a class="nav-link" href="../pages/Catering.html"><span class="Fugaz-One" style="font-weight: lighter;">Catering</span></a></li>
+                        <li class="nav-item ps-2"><a class="nav-link" href="../pages/Photos.html"><span class="Fugaz-One" style="font-weight: lighter;">Photo</span></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-<div class="container-xl catering-box">
-        <h1 class="catering-title">Catering</h1>
-</div>
-
-<br>
-<br>
-
-<div class="container-xl">
-    <img class="cateringHero" src="../assets/cateringHero.jpg" alt="catering picture buffet">
-</div>
-
-<br>
-<br>
-
-<div class="container-xl">
-    <div class="row align-items-stretch">
-        <div class="col">
-            <img src="../assets/cateringMaine.jpg"  alt="tomatoes picture"> 
-
-        </div>
-        <div class="col catering-col-text "> <h4>Our Catering Services</h4>
-            <p>Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat. Mi proin sed libero enim sed faucibus turpis in. Et ultrices neque ornare aenean euismod. Quisque sagittis purus sit amet. Ultricies tristique nulla aliquet enim tortor at auctor urna. Purus faucibus ornare suspendisse sed. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis. Consectetur lorem donec massa sapien faucibus et molestie ac. Cum sociis natoque penatibus et magnis dis parturient. Ut faucibus pulvinar elementum integer enim. Vel risus commodo viverra maecenas accumsan. Nec dui nunc mattis enim ut. Posuere lorem ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean. Tortor posuere ac ut consequat semper viverra nam libero. Tellus elementum sagittis vitae et leo duis ut. </p> <p>PEgestas quis ipsum suspendisse ultrices gravida. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et. Dolor sit amet consectetur adipiscing elit ut aliquam. Erat nam at lectus urna duis convallis convallis tellus. Egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices.</p>
-
-        </div>
+    <div iv class="container catering-mobile-space">
+      <div class="row">
+        <h1 class="Fugaz-One catering-col-text text-center p-3 mb-5">
+          Catering
+        </h1>
+      </div>
     </div>
-</div>
 
-<br>
-<br>
 
-<div class="container-xl">
-    <div class="row">
-        <div class="col">
-<img src="../assets/catering1.jpg" class="img fluid w-100" alt="ham and crackers">
-        </div>
-        <div class="col">
-<img src="../assets/catering2.jpg" class="img fluid w-100" alt="burgers">
-        </div>
-        <div class="col">
-<img src="../assets/catering3.jpg" class="img fluid w-100" alt="dessert/tomatoes">
-        </div>
+    <!-- First Image  -->
+    <div class="container d-none d-sm-block">
+      <img
+        class="img-fluid cateringHero" 
+        src="../assets/cateringHero.jpg"
+        alt="catering picture buffet"
+      />
     </div>
-</div>
-<br>
-<br>
 
 
-   <footer>
+
+
+<!-- (Middle Section) Catering Services -->
+    <article>
+      <div class="container">
+        <div class="row mt-5 mb-5 d-flex justify-content-center mb-5">
+          <div class="col-md-5 d-md-none d-lg-block">
+            <img
+              class="h-100 w-100 object-fit-cover d-md-none d-lg-block"
+              src="../assets/cateringMaine.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-7 d-lg-block catering-col-text">
+            <h4 class="Fugaz-One">Our Catering Services</h4>
+            <p class="Montauk-regular">
+              Morbi tempus iaculis urna id. Aenean pharetra magna ac placerat.
+              Mi proin sed libero enim sed faucibus turpis in. Et ultrices neque
+              ornare aenean euismod. Quisque sagittis purus sit amet. Ultricies
+              tristique nulla aliquet enim tortor at auctor urna. Purus faucibus
+              ornare suspendisse sed. Tempor nec feugiat nisl pretium fusce id
+              velit ut tortor. Sed cras ornare arcu dui vivamus arcu felis.
+              Consectetur lorem donec massa sapien faucibus et molestie ac. Cum
+              sociis natoque penatibus et magnis dis parturient. Ut faucibus
+              pulvinar elementum integer enim. Vel risus commodo viverra
+              maecenas accumsan. Nec dui nunc mattis enim ut. Posuere lorem
+              ipsum dolor sit amet. Sed odio morbi quis commodo odio aenean.
+              Tortor posuere ac ut consequat semper viverra nam libero. Tellus
+              elementum sagittis vitae et leo duis ut.
+            </p>
+            <p class="Montauk-regular">
+              PEgestas quis ipsum suspendisse ultrices gravida. Tempor commodo
+              ullamcorper a lacus vestibulum sed arcu non odio. Auctor augue
+              mauris augue neque gravida in fermentum et sollicitudin. Augue
+              neque gravida in fermentum et sollicitudin ac orci phasellus.
+              Tristique senectus et netus et. Dolor sit amet consectetur
+              adipiscing elit ut aliquam. Erat nam at lectus urna duis convallis
+              convallis tellus. Egestas purus viverra accumsan in nisl nisi
+              scelerisque eu ultrices.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 3 Images -->
+      <div class="container mb-5 catering-mobile">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="../assets/catering1.jpg"
+              class="img fluid w-100"
+              alt="ham and crackers"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="../assets/catering2.jpg"
+              class="img fluid w-100 catering-mobile"
+              alt="burgers"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="../assets/catering3.jpg"
+              class="img fluid w-100"
+              alt="dessert/tomatoes"
+            />
+          </div>
+        </div>
+      </div>
+    </article>
+
+
+    <!--  Footer    -->
+    <footer>
         <div class="container">
-            <div class="row align-item-center">
-                <div class="col-md-6 footer-left">
+            <div class="row d-flex justify-content-center">
+                <div class="order-1 col-sm-12 col-md-6 footer-left footer-mobile">
                     <p class="footer-color"> 1357 Mutt Street, Rottweiler CA. 12345</p>
+                </div>
+                <div class="order-3 order-sm-2 col-sm-12 col-md-6 text-end footer-right footer-mobile mb-3">
+                    <img style="width: 100px;" src="../assets/CompanyLogo.png" alt="A Spaniel Company Logo">
+                </div>
+                <div class="order-2 order-sm-3 col-sm-12 col-md-6 footer-left footer-mobile">
                     <p class="footer-color"> Phone: 123-456-7890</p>
                 </div>
-                <div class="col-md-6 text-end footer-right">
-                    <img style="width: 100px;" src="../assets/CompanyLogo.png" alt="">
+                <div class="order-4 col-sm-12 col-md-6 text-end footer-mobile">
                     <p class="footer-color">Copyright © Muzzles Restaurant</p>
                 </div>
-
             </div>
-
         </div>
-
     </footer>
 
-    
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
