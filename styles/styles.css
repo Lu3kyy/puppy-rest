@@ -39,6 +39,7 @@ body{
   }
 
 }
+/* about.html classes for responsiveness */
 @media (max-width: 786px)
 {
   .about-images{
@@ -46,17 +47,17 @@ body{
       height:auto;
 
   }
-  .card-size{
+  .card-size{ /*  class that changes card size for tablet and mobile   */
     width:300px
   }
 }
 @media (min-width: 787px)
 {
-  .card-size{
+  .card-size{ /*  class that affects card size for laptop versions  */
     width: 536px;
   }
 }
-
+/* End of about.html class responsiveness */
 
                                                   /* MENU SECTION */
 .menu-section {
@@ -279,7 +280,7 @@ body{
 
 }
 
-@media(max-width: 425px)
+@media(max-width: 500px)
 {
 
   .grid-container.grid-container-mobile{
@@ -293,7 +294,7 @@ body{
 }
 
 @media(min-width:768px){
-  .footer-logo-mobile{
+  .footer-mobile{
     font-size: smaller;
   }
 
