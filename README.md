@@ -3,7 +3,7 @@ Lucas Guptill, Daniel Herrera, Vanessa Acuna //
 Puppy Restaurant //
 Peer Review: 
 
-
+//Daniel H: I will update all Top navbars and any edits and responsiveness towards Home and About page
 ### Jacob's Review
 
 ##### Desktop
