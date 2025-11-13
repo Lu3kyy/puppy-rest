@@ -206,7 +206,7 @@ body{
 .navbar-links {
   list-style: none;
   display: flex;
-  gap: 60px; /* spacing between buttons */
+  gap: 40px; /* spacing between buttons */
   margin: 0;
   padding: 0;
 }
