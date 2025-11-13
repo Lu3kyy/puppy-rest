@@ -294,7 +294,7 @@ body{
 }
 
 @media(min-width:768px){
-  .footer-logo-mobile{
+  .footer-mobile{
     font-size: smaller;
   }
 
