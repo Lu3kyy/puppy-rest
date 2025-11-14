@@ -237,6 +237,10 @@ max-width: 85% !important;
 
 }
 
+.container-spacing-img{
+ max-width: 85% !important;
+}
+
 
                                                 /*footer code/catering*/
 .footer-color{
@@ -255,9 +259,7 @@ max-width: 85% !important;
     
 }
 
-.cateringHero{
-    display: center;
-}
+
 .catering-col-text{
     background-color: white;
     color:#5F002B;
