@@ -293,6 +293,19 @@ body{
 
 }
 
+
+@media(max-width: 768px)
+{
+
+  .grid-container.grid-container-mobile{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap:15px;
+
+  
+  }
+}
 @media(max-width: 500px)
 {
 
