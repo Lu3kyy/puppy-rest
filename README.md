@@ -14,7 +14,7 @@
 
    (index button is within the logo i just dont think it was clicked during review)
    just some smaller tweaks to sizing is all we really need.
-
+   - Images within the about mobile page is centered especially at the tested 425px width, The alignment breaks when it reaches 375px and lower. 
 
 
 
