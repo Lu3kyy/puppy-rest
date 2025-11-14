@@ -8,9 +8,12 @@
  // Recreating a puppy restaurant from the adobe preview and making sure its 1:1
 
 // Peer review on assignment: Sammer Saqa - Home(Index) link missing on all pages, shows to be   
-   fully responsive, however the mobile dimensions show that the images are not centered on the about page. The photos page borders around each picture are too thick. Catering page images are to far apart, they need to be brought closer. Font sizes are a bit larger than the adobe.
+   fully responsive, however the mobile dimensions show that the images are not centered on the about page. The photos page borders around each picture are too thick. Catering page images are to far apart, they need to be brought closer. Font sizes are a bit larger than the adobe. 
 
    All and all, looks great. Just needs a few tweaks. 
+
+   (index button is within the logo i just dont think it was clicked during review)
+   just some smaller tweaks to sizing is all we really need.
 
 
 
