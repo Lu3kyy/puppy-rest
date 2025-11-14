@@ -40,8 +40,8 @@ Tested at 1920px
 
 ###### Catering Page
 - Catering title is wider than the rest of the page                                                                                     (done)
-- Our Catering Services section is too tall (image should be rectangular a square.)                                                     (done, i think)
-- Text for Our Catering Services differs in styling from prototype                                                                      (almost done)
+- Our Catering Services section is too tall (image should be rectangular a square.)                                                     (done)
+- Text for Our Catering Services differs in styling from prototype                                                                      (done)
 - Text for Our Catering Services is slit at the wrong part, and has an extra P at the (false) start of the second paragraph             (done)
 ###### Photo Page
 - Photos title is wider than the rest of the page      (done)                                                                             
