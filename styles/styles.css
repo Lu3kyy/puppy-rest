@@ -270,6 +270,7 @@ max-width: 85% !important;
     display: flexbox;
     justify-content: center;
     padding: 50px;
+    font-size: 20px;
 }
 
 .catering-3-images{
