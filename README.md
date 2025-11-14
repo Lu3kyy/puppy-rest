@@ -39,12 +39,12 @@ Tested at 1920px
 - Too much space between each card                      (fixed from 40px gap down to 15px)
 
 ###### Catering Page
-- Catering title is wider than the rest of the page
-- Our Catering Services section is too tall (image should be rectangular a square.)
-- Text for Our Catering Services differs in styling from prototype
-- Text for Our Catering Services is slit at the wrong part, and has an extra P at the (false) start of the second paragraph
+- Catering title is wider than the rest of the page                                                                                     (done)
+- Our Catering Services section is too tall (image should be rectangular a square.)                                                     (done, i think)
+- Text for Our Catering Services differs in styling from prototype                                                                      (almost done)
+- Text for Our Catering Services is slit at the wrong part, and has an extra P at the (false) start of the second paragraph             (done)
 ###### Photo Page
-- Photos title is wider than the rest of the page
+- Photos title is wider than the rest of the page      (done)                                                                             
 
 
 ##### Tablet
@@ -53,10 +53,10 @@ For the most part has the same spacing issues as Desktop, but some are more noti
 
 ###### Home Page 
 - Nav links (for the hamburger menu) have too much space between them                       : DH (Decreased space between nav links)
-###### Photo Page
-- Could have the photos go to 3 (or 2) columns instead of 4  (LG: made it sized at 3 columns 4 rows and hold all images perfectly)
+###### Photo Page (DONE)
+- Could have the photos go to 3 (or 2) columns instead of 4  (LG: made it sized at 3 columns 4 rows and hold all images perfectly) 
 
-##### Mobile
+##### Mobile (DONE)
 Tested at 425px
 
 ###### Menu Page (DONE)
@@ -67,8 +67,8 @@ Tested at 425px
 - Footer differs from the home and about pages
 (fixed!)
 
-###### Photo Page
-- I would not consider this page responsive
+###### Photo Page (DONE - Jacob checked it off)
+- I would not consider this page responsive                                                     
 - Images have too much border and space between them
 - At this level definitely lessen the amount of columns the are arranged in
 - Footer overlaps with images
