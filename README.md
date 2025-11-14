@@ -16,9 +16,9 @@ Tested at 1920px
 
 ###### About Page
 - About section is too thin, the prototype shows the image and story behind the grill section as wider
-- The Our Team title is wider than the other two sections
-- The our team cards are rounded when the prototype does not show that
-- Our team card text is either too small
+- The Our Team title is wider than the other two sections                           ()
+- The our team cards are rounded when the prototype does not show that              (done)
+- Our team card text is either too small                                            (done)
 
 ###### Menu Page  (DONE)                                         CHANGES HERE
 - Menu cards are rounded when they should not be                    (done)
