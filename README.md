@@ -51,21 +51,21 @@ Tested at 1920px
 Tested at 768px
 For the most part has the same spacing issues as Desktop, but some are more noticeable on Tablet
 
-###### Home Page 
+###### Home Page (DONE)
 - Nav links (for the hamburger menu) have too much space between them                       : DH (Decreased space between nav links)
 ###### Photo Page (DONE)
-- Could have the photos go to 3 (or 2) columns instead of 4  (LG: made it sized at 3 columns 4 rows and hold all images perfectly) 
+- Could have the photos go to 3 (or 2) columns instead of 4  (LG: made it sized at 3 columns 4 rows and hold all images perfectly)
 
 ##### Mobile (DONE)
 Tested at 425px
 
 ###### Menu Page (DONE)
 - Lessen the margins on the sides of the menu cards, to make them wider. Could get rid of the side margins completely if you want 
-(Fixed for the most part)
+                                        (Fixed for the most part)
 - Menu card text is way way too small. Usually we do not make text smaller on mobile. This causes readability issues. 
-(fixed so text doesnt leave menu and is still readable on mobile)
+                        (fixed so text doesnt leave menu and is still readable on mobile)
 - Footer differs from the home and about pages
-(fixed!)
+                                                (fixed!)
 
 ###### Photo Page (DONE - Jacob checked it off)
 - I would not consider this page responsive                                                     
