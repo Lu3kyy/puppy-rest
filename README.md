@@ -12,20 +12,20 @@
 
 
 
-//Daniel H: I will update all Top navbars and any edits and responsiveness towards Home and About page
+
 ### Jacob's Review
 
 ##### Desktop
 Tested at 1920px
 
-###### Home Page (DONE)
+###### Home Page (Done DH)
 - Nav links are too far apart and too far from the right                        (done)
 - Muzzles triple image does not reach the ends of the container                 (done: need to update responsiveness for this photo)
 - Muzzles text is too large.                                                    (styled text to be smaller)
 
-###### About Page
-- About section is too thin, the prototype shows the image and story behind the grill section as wider
-- The Our Team title is wider than the other two sections                           ()
+###### About Page (Done: DH)
+- About section is too thin, the prototype shows the image and story behind the grill section as wider  (Fixed image in 1920px to match the prototype exactly.)
+- The Our Team title is wider than the other two sections                           (Done: got rid of row class)
 - The our team cards are rounded when the prototype does not show that              (done)
 - Our team card text is either too small                                            (done)
 
