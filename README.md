@@ -1,7 +1,16 @@
-Lucas Guptill, Daniel Herrera, Vanessa Acuna // 
-11/10/2025 // 
-Puppy Restaurant //
-Peer Review: 
+
+// Lucas Guptill, Daniel Herrera, Vanessa Acuna 
+
+ // Date Revised: 11/10/2025 (STARTED), 11/14/2025 (LAST EDIT) 
+
+ // Puppy Restaurant 
+
+ // Recreating a puppy restaurant from the adobe preview and making sure its 1:1
+
+// Peer review on assignment:
+
+
+
 
 
 ### Jacob's Review
