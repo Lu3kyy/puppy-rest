@@ -71,9 +71,17 @@ body{
 }
 .muzzles-img
 {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   left: 0;
+}
+@media (max-width: 800px) /* creates responsiveness for muzzles image  */
+{
+  .muzzles-img{
+    position:relative;
+    padding: 0px;
+    width: 100%;
+  }
 }
 
                                                   /* MENU SECTION */
