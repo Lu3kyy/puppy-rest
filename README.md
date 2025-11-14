@@ -1,7 +1,16 @@
-Lucas Guptill, Daniel Herrera, Vanessa Acuna // 
-11/10/2025 // 
-Puppy Restaurant //
-Peer Review: 
+
+// Lucas Guptill, Daniel Herrera, Vanessa Acuna 
+
+ // Date Revised: 11/10/2025 (STARTED), 11/14/2025 (LAST EDIT) 
+
+ // Puppy Restaurant 
+
+ // Recreating a puppy restaurant from the adobe preview and making sure its 1:1
+
+// Peer review on assignment:
+
+
+
 
 //Daniel H: I will update all Top navbars and any edits and responsiveness towards Home and About page
 ### Jacob's Review
@@ -57,6 +66,7 @@ Tested at 425px
                         (fixed so text doesnt leave menu and is still readable on mobile)
 - Footer differs from the home and about pages
                                                 (fixed!)
+
 
 ###### Photo Page (DONE)
 - I would not consider this page responsive                                 (done)
