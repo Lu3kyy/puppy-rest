@@ -95,7 +95,7 @@ body{
 }
 /* MENU CARD */
 .menu-card {
-  width: 640px;                 /* uniform width */
+  width: 650px;                 /* uniform width */
   height: 780px;                /* fixed  height */
   background-color: #FFFFFF;   
   overflow: hidden;
