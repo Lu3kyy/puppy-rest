@@ -59,7 +59,7 @@ Tested at 425px
 (fixed!)
 
 ###### Photo Page
-- I would not consider this page responsive
-- Images have too much border and space between them
-- At this level definitely lessen the amount of columns the are arranged in
-- Footer overlaps with images
+- I would not consider this page responsive                                 (done)
+- Images have too much border and space between them                   (sized correctly)
+- At this level definitely lessen the amount of columns the are arranged in (fixed)
+- Footer overlaps with images                                               (fixed)
