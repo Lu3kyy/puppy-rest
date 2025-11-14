@@ -45,7 +45,7 @@ For the most part has the same spacing issues as Desktop, but some are more noti
 ###### Home Page 
 - Nav links (for the hamburger menu) have too much space between them                       : DH (Decreased space between nav links)
 ###### Photo Page
-- Could have the photos go to 3 (or 2) columns instead of 4
+- Could have the photos go to 3 (or 2) columns instead of 4  (LG: made it sized at 3 columns 4 rows and hold all images perfectly)
 
 ##### Mobile
 Tested at 425px
