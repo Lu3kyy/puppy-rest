@@ -20,14 +20,14 @@ Tested at 1920px
 - The our team cards are rounded when the prototype does not show that
 - Our team card text is either too small
 
-###### Menu Page
-- Menu cards are rounded when they should not be
-- Too much space between Our Menu title and cards
-- Card title description text should be italicized
-- Card background color does not match prototype
-- Price text is too small
-- Lines under menu items are too thick
-- Too much space between each card
+###### Menu Page  (DONE)                                         CHANGES HERE
+- Menu cards are rounded when they should not be                    (done)
+- Too much space between Our Menu title and cards                   (done)
+- Card title description text should be italicized            (i think its done?)
+- Card background color does not match prototype                    (done)
+- Price text is too small                                         (adjusted)
+- Lines under menu items are too thick                      (from 2px down to 1px)
+- Too much space between each card                      (fixed from 40px gap down to 15px)
 
 ###### Catering Page
 - Catering title is wider than the rest of the page
@@ -50,10 +50,13 @@ For the most part has the same spacing issues as Desktop, but some are more noti
 ##### Mobile
 Tested at 425px
 
-###### Menu Page
-- Lessen the margins on the sides of the menu cards, to make them wider. Could get rid of the side margins completely if you want
-- Menu card text is way way too small. Usually we do not make text smaller on mobile. This causes readability issues.
+###### Menu Page (DONE)
+- Lessen the margins on the sides of the menu cards, to make them wider. Could get rid of the side margins completely if you want 
+(Fixed for the most part)
+- Menu card text is way way too small. Usually we do not make text smaller on mobile. This causes readability issues. 
+(fixed so text doesnt leave menu and is still readable on mobile)
 - Footer differs from the home and about pages
+(fixed!)
 
 ###### Photo Page
 - I would not consider this page responsive

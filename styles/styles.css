@@ -31,6 +31,13 @@ body{
 .Montauk-Light{
   font-family: Montauk Light;
 }
+@font-face {
+    font-family: Montauk Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+}
+.Montauk-Italic{
+  font-family: Montauk Italic;
+}
 @media (max-width:500px)
 {
   .footer-mobile{
@@ -75,16 +82,14 @@ body{
   flex-wrap: wrap; /*wraps the columns and is sized to its 2 big menu panels on most all desktops*/
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
-  padding: 40px;
+  gap: 15px;
   background: transparent;
 }
 /* MENU CARD */
 .menu-card {
   width: 640px;                 /* uniform width */
   height: 780px;                /* fixed  height */
-  background-color: #fffaf8;   
-  border-radius: 4px;
+  background-color: #FFFFFF;   
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -102,7 +107,7 @@ body{
 .menu-content {
   flex: 1;
   padding: 15px; /*DISTANCE BETWEEN OUTER BOX AND INNER TEXT*/
-  color: #5e0b27;
+  color: #5F002B;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -113,30 +118,28 @@ body{
   font-family: 'Fugaz';
   font-size: 26px;
   margin-bottom: 5px;
-  color: #5e0b27;
+  color: #5F002B;
 }
 /* SUBTITLE (e.g., "All sandwiches come with...") */
 .menu-subtitle {
   font-family: Montauk Light;
     font-style: italic;
   font-size: 15px;
-  margin-bottom: 25px;
-  color: #5e0b27;
+  color: #5F002B;
 }
 /* MENU ITEMS */
 .menu-item {  
   display: flex;
   flex-direction: column;
-  border-bottom: 2px solid #5e0b27;
+  border-bottom: 1px solid #5F002B;
   padding: 10px 0;
-  margin-bottom: 5px;
   position: relative;
 }
 /* ITEM NAME */
 .item-name {
   font-family: Montauk Light;
     font-size: 25px;
-  color: #5e0b27;
+  color: #5F002B;
 }
 /* ITEM PRICE */
 .item-price {
@@ -144,15 +147,15 @@ body{
     position: absolute;
   right: 0;
   top: 10px;
-  font-size: 18px;
-  color: #5e0b27;
+  font-size: 25px;
+  color: #5F002B;
 }
 /* ITEM DESCRIPTION */
 .menu-item p {
   font-family: Montauk Light;
-    font-size: 14px;
+    font-size: 17px;
   margin: 5px 0 0 0;
-  color: #5e0b27;
+  color: #5F002B;
 }
                           /*TEXT RESIZING TO FIT MOBILE SCREENS MENU TAB ONLY!!*/
 @media (max-width: 1024px) {
@@ -160,14 +163,14 @@ body{
     font-size: 24px;
   }
   .menu-subtitle {
-    font-size: 16px;
+    font-size: 18px;
   }
   .item-name,
   .item-price {
-    font-size: 18px;
+    font-size: 20px;
   }
   .menu-item p {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 /*MOBILE SECTION */
@@ -176,14 +179,14 @@ body{
     font-size: 20px;
   }
   .menu-subtitle {
-    font-size: 13px;
+    font-size: 14px;
   }
   .item-name,
   .item-price {
-    font-size: 10px;
+    font-size: 20px;
   }
   .menu-item p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -228,7 +231,6 @@ body{
   color: #550a23; 
   background: transparent;
   border: none;
-  font-weight: 700;
 }
 
 
