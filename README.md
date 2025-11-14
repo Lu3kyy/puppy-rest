@@ -10,9 +10,9 @@ Peer Review:
 Tested at 1920px
 
 ###### Home Page
-- Nav links are too far apart and too far from the right
-- Muzzles triple image does not reach the ends of the container
-- Muzzles text is too large.
+- Nav links are too far apart and too far from the right                        (done)
+- Muzzles triple image does not reach the ends of the container                 (done: need to update responsiveness for this photo)
+- Muzzles text is too large.                                                    (styled text to be smaller)
 
 ###### About Page
 - About section is too thin, the prototype shows the image and story behind the grill section as wider
@@ -43,7 +43,7 @@ Tested at 768px
 For the most part has the same spacing issues as Desktop, but some are more noticeable on Tablet
 
 ###### Home Page 
-- Nav links (for the hamburger menu) have too much space between them 
+- Nav links (for the hamburger menu) have too much space between them                       : DH (Decreased space between nav links)
 ###### Photo Page
 - Could have the photos go to 3 (or 2) columns instead of 4
 
