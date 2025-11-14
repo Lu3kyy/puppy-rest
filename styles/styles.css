@@ -245,10 +245,6 @@ max-width: 85% !important;
 
 }
 
-.container-spacing-img{
- max-width: 85% !important;
-}
-
 
                                                 /*footer code/catering*/
 .footer-color{
@@ -289,7 +285,7 @@ max-width: 85% !important;
   }
 
   .catering-mobile-space{
-    margin-bottom: -4rem;
+    margin-bottom: -2rem;
   }
 
   .footer-mobile{
